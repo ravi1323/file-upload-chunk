@@ -7,9 +7,9 @@ import {createServer} from 'http'
 import {Server} from 'socket.io'
 import {v4} from 'uuid'
 
-const SERVER_URI = 'http://localhost:3001';
+const SERVER_URI = 'http://localhost:3000';
 
-const port = 3001;
+const port = 3000;
 const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer)

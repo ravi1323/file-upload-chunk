@@ -1,4 +1,4 @@
-const SERVER_URI = 'http://localhost:3001';
+const SERVER_URI = 'http://localhost:3000';
 
 var fileUploadChunkSize = 3 * 1024;
 var form = document.getElementById('form')
